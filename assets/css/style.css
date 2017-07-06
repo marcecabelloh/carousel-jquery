@@ -21,18 +21,18 @@ h1{
 	color: DeepPink;
 }
 
-#carrusel #divCentro{
+#carrusel #caja{
 	width: 100%;
 	overflow: hidden;
 	height: 250px;
 }
-#carrusel #divCentro ul{
+#carrusel #caja ul{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-#divCentro{
+#caja{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -50,4 +50,7 @@ h1{
 	color:#bd77a9;
 }
 
+.imagenes{
+	width: 100%;
+}
 /*INTENTÉ QUE FUERA RESPONSIVE PERO AÚN ASÍ EL ACRRUSEL NO SE VE BIEN CUANDO PASA A MOBILE, MOSTRÁNDO TODAS LAS IMÁGENES EN VERTICAL*/
