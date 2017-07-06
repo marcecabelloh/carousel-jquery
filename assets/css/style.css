@@ -1,0 +1,53 @@
+body{
+	background:#bd77a9;
+	margin:0;
+	padding:0;
+	font-family: 'Kurale', serif;
+}
+
+#carrusel{
+	border: solid 1px #ccc;
+	width: 50%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #ccc;
+	margin-top: 100px;
+	left: 50%;
+	top: 100px;
+	background-image: url(../img/fondo.jpg);
+}
+
+h1{
+	margin-top: 100px;
+	color: DeepPink;
+}
+
+#carrusel #divCentro{
+	width: 100%;
+	overflow: hidden;
+	height: 250px;
+}
+#carrusel #divCentro ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#divCentro{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.glyphicon-triangle-right{
+	margin-top: 100px;
+}
+
+.glyphicon-triangle-left{
+	margin-top: 100px;
+}
+
+.glyphicon {
+    font-size: 50px;
+	color:#bd77a9;
+}
+
+/*INTENTÉ QUE FUERA RESPONSIVE PERO AÚN ASÍ EL ACRRUSEL NO SE VE BIEN CUANDO PASA A MOBILE, MOSTRÁNDO TODAS LAS IMÁGENES EN VERTICAL*/
